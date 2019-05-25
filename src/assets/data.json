@@ -1,0 +1,78 @@
+ [
+	{
+		"rollnum":"20176033",
+		"name":"prasanna kumar",
+		"subjects":{
+			"cspp1":"A+",
+			"cspp2":"B+",
+			"ADS1":"B",
+			"ADS2":"B",
+			"DBMS":"A+"
+		},
+		"image":"./assets/photos/prasanna.jpg"
+	},
+	{
+		"rollnum":"20176105",
+		"name":"mohan raj",
+		"subjects":{
+			"cspp1":"B+",
+			"cspp2":"B+",
+			"ADS1":"A",
+			"ADS2":"A+",
+			"DBMS":"C"
+		},
+		"image":"./assets/photos/noimage.png"
+
+	},
+	{
+		"rollnum":"20176001",
+		"name":"Srikanth",
+		"subjects":{
+			"cspp1":"A+",
+			"cspp2":"B+",
+			"ADS1":"A",
+			"ADS2":"B+",
+			"DBMS":"B+"
+		},
+		"image":"./assets/photos/srikanth.jpg"	
+	},
+	{
+		"rollnum":"20176076",
+		"name":"Bharath",
+		"subjects":{
+			"cspp1":"B",
+			"cspp2":"B+",
+			"ADS1":"C",
+			"ADS2":"A+",
+			"DBMS":"C"
+		},
+		"image":"./assets/photos/bharath.jpg"	
+
+	},
+	{
+		"rollnum":"20176034",
+		"name":"koushik",
+		"subjects":{
+			"cspp1":"Ex",
+			"cspp2":"B",
+			"ADS1":"B+",
+			"ADS2":"A",
+			"DBMS":"A+"
+		},
+		"image":"./assets/photos/koushik.jpg"
+	},
+	{
+		"rollnum":"20176068",
+		"name":"vikram thota",
+		"subjects":{
+			"cspp1":"B+",
+			"cspp2":"B+",
+			"ADS1":"B",
+			"ADS2":"C",
+			"DBMS":"A"
+		},
+		"image":"./assets/photos/vikram.jpeg"
+	}
+
+
+]

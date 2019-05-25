@@ -1,0 +1,21 @@
+
+img {
+  border-radius: 50%;
+}
+
+#form-control{
+    max-width: 10%
+}
+
+.text{
+	display: inline-block;
+  font-size: 32px;
+  transform: scale(.5, 1);
+}
+
+.jumbotron{
+			background-color: #17a2b8;
+			width: 100%;
+			font-color: yellow;
+
+}

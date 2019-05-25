@@ -1,0 +1,61 @@
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+<div class="container">
+   <div class="jumbotron">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgKaaPu-NVl42MvcN1JcDuOuuYKef7Viyb9hccQ-4QPFIlI8PE" align="left" width="10%" height="6%">
+     <h1 style="color:yellow"><i><b> &nbsp; &nbsp; MSIT Students Transcripts</b></i></h1> 
+    
+  </div>
+<div class="text-center">
+{{x}}
+ <form>
+    <div class="form-group">
+      <label for="roll">Roll Number: </label>
+       <input type="text" id="roll" class="form-control" name="rollNumber" required [(ngModel)] = "rollnum.id">
+       <!-- rollnum.id refers to string in rollnum.ts -->
+       <br>
+      <button type="button" class="btn btn-primary" (click)="redirect()">Submit</button>
+    </div>
+    
+  </form>
+</div>
+
+
+
+
+  <div *ngIf="output.length!=0;then content else dontexist"></div>    
+<ng-template #content>
+  <B><label>Student Name:</label>
+</B>
+    <i>{{output.name}}</i>
+	<img src= "{{output.image}}" alt="Avatar" align="right" style="width:200px">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>CSPP-1</th>
+          <th>CSPP-2</th>
+          <th>ADS-1</th>
+          <th>ADS-2</th>
+          <th>DBMS</th>
+        </tr>
+      </thead>
+      <tbody>
+           	<td>{{output.subjects.cspp1}}</td>
+          	<td>{{output.subjects.cspp2}}</td>
+          	<td>{{output.subjects.ADS1}}</td>
+          	<td>{{output.subjects.ADS2}}</td>
+          	<td>{{output.subjects.DBMS}}</td>
+      </tbody>
+      </table> 
+
+</ng-template>
+
+  
+<ng-template #dontexist>
+    <b>Record doesn't exist</b>
+  
+  </ng-template>
+
+
+
